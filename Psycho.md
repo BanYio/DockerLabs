@@ -12,7 +12,8 @@ Para comenzar, lo primero que haremos es realizar un escaneo de puertos con nmap
 
 Lo primero enumeramos las versiones de este servidor web para buscar posibles exploits, pero no es el caso
 
- ![image](https://github.com/user-attachments/assets/dcbf2581-9b57-4eb3-b8ae-788517d970f7)
+ ![image](https://github.com/user-attachments/assets/0473ef3d-a40b-49fe-a812-ce227d7eb615)
+
 
 Lo siguiente es realizar un poco de Fuzzing Web para la enumeración de directorios del servidor web.
 
