@@ -55,9 +55,11 @@ sqlmap -r request.txt -D users -T usuarios --dump
  ![image](https://github.com/user-attachments/assets/fe3b1de2-fb06-440f-b47e-56d4e35cf0b4)
 
 Vemos usuarios y contraseñas, lo primero que hacemos es guardarnos esta información y probar logins tanto en la web como por ssh con hydra
+
 ![image](https://github.com/user-attachments/assets/7408786c-6838-433e-91db-415a68e44ac5)
  
 Pero no hay suerte, parece que estas credenciales no nos sirven, pero si observamos, vemos que hay un un **user: directorio** y **password: directoriotravieso**
+
 Vamos a comprobar por si acaso que no haya ningún directorio en la web con ese nombre
  ![image](https://github.com/user-attachments/assets/f88d3f59-5b25-4901-8a8d-e7336ce0eaef)
 
